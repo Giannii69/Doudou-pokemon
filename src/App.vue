@@ -1,17 +1,31 @@
 <template>
+<div>
+  <AjouterAuPanier msg=""/>
+<HelloWorld msg=""/>
+<Image msg=""/>
+<Modification msg=""/>
+<Shop msg=""/>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
+</div>
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import AjouterAuPanier from './components/AjouterAuPanier.vue'
+import Image from './components/Image.vue'
+import Modification from './components/Modification.vue'
+import Shop from './components/Shop.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    AjouterAuPanier,
+    Image,
+    Modification,
+    Shop,
   }
 }
 </script>
